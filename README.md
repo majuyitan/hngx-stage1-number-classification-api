@@ -20,7 +20,7 @@ npm install
 
 ### **Run the Server**  
 ```sh
-node index.js
+node src/server.js
 ```
 
 Server should now be running at `http://localhost:3000/`
