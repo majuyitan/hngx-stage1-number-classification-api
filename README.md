@@ -22,10 +22,12 @@ npm install
 ```sh
 node index.js
 ```
+
 Server should now be running at `http://localhost:3000/`
 
 ### **Test the API**
 Use tools like Postman or your browser:
+
 ```sh
 http://localhost:3000/api/classify-number?number=401
 ```
@@ -40,7 +42,7 @@ This project is hosted on **Render**. The production API is accessible at:
 https://hngx-stage1-number-classification-api-qc75.onrender.com/api/classify-number?number=401
 
 ### Response Format (200 OK):
-    ```json
+```json
 {
     "number": 401,
         "is_prime": true,
@@ -51,16 +53,14 @@ https://hngx-stage1-number-classification-api-qc75.onrender.com/api/classify-num
         "digit_sum": 5,
         "fun_fact": "401 is the number of connected planar Eulerian graphs with 9 vertices."
 }
-}
 ```
+
 ### Response Format (400 Bad Request):
 ```json
 {
     "number": "alphabet",
         "error": true
 }
-```
-
 ```
 
 ## Hire Node.js Developers
