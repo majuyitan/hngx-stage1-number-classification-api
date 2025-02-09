@@ -27,7 +27,8 @@ Server should now be running at `http://localhost:3000/`
 ### **Test the API**
 Use tools like Postman or your browser:
 ```sh
-http://localhost:3000/api/classify-number?number=371
+http://localhost:3000/api/classify-number?number=401
+```
 
 ## Tech Stack
 - Node.js (Express.js for routing)
