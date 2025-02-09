@@ -12,7 +12,7 @@ app.use(cors({
 }));
 app.use(express.json());
 
-app.use('/', classifyNumRoute);
+app.use('/api', classifyNumRoute);
 
 app.listen(PORT, () => {
 	console.log(`Server running on port ${PORT}`)
